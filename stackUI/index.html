@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCard Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="Notes_sidebar">
+        <input type="text" id="title" class="theQuestion" placeholder="Write a question">
+        <textarea id="description"  class ="theAnswer" placeholder="Write an answer"></textarea>
+        <button id="btnPress">Save Flashcard</button>
+        <button id="btnPress2" class="btn-delete hidden">Delete</button>
+        <button id="btnPress3" class="btn-show hidden">Show Answer</button>
+        
+    </div>
+    <div class="Notes_container" id="Notes_container">
+        <!-- Flash notes will be inserted here -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

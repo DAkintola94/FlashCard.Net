@@ -1,0 +1,6 @@
+@stackApi_HostAddress = http://localhost:5182
+
+GET {{stackApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

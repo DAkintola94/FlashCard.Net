@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "stackApi.Controllers.FlashNoteController",
+    "Method": "GetAllNotes",
+    "RelativePath": "api/FlashNote",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "stackApi.Controllers.FlashNoteController",
+    "Method": "AddFlashNotes",
+    "RelativePath": "api/FlashNote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flash_notes",
+        "Type": "stackApi.Model.Entities.Flashcard",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "stackApi.Controllers.FlashNoteController",
+    "Method": "UpdateFlashCard",
+    "RelativePath": "api/FlashNote/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "update_flash_notes",
+        "Type": "stackApi.Model.Entities.Flashcard",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "stackApi.Controllers.FlashNoteController",
+    "Method": "GetDataById",
+    "RelativePath": "api/FlashNote/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "stackApi.Controllers.FlashNoteController",
+    "Method": "DeleteSubject",
+    "RelativePath": "api/FlashNote/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
